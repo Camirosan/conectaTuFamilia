@@ -1,0 +1,76 @@
+*{
+    background-color: #2c263a;
+}
+/* Contenedor de bienvenida */
+.contenedor_1 {
+    box-sizing: border-box;
+    padding: 10%;
+    background-color: #2c263a;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+}
+/* División de la imagen principal */
+#imagenCentral{
+    width:285px;
+    height:177px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-image: url(../../img/familia.jfif);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#titulo{
+    margin: 10%;
+    color: #ffffff;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+    background-color: #2c263a;
+}
+
+.tab-pane{
+    color:#ffffff;
+}
+/* Contenedor de formularios */
+.contenedor_2 {
+    box-sizing: border-box;
+    padding: 10%;
+    background-color: #2c263a;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+}
+
+.tab-content{
+    margin: 20px;
+}
+
+.form {
+    margin: 10px;
+}
+
+#sesionBtn, #registroBtn  {
+    margin:20px;
+}
+
+.my-select{
+    color: #2c263a;
+}
+
+.my-select option:hover{
+    box-shadow: 0 0 30px 100px #2c263a inset;
+    color: #ffffff;
+}
+
+.option{
+    background-color: #ffffff;
+}
