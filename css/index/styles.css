@@ -74,3 +74,64 @@
 .option{
     background-color: #ffffff;
 }
+
+#validEmail {
+    width:300px;
+    height: 20px;
+    padding: 5px;
+    z-index: 99;
+    /* background: #fefefe; */
+    font-size: .8em;
+    /* border-radius: 5px; */
+    /* box-sahadow: 0 1px 3px #ccc; */
+    /* border: 1px solid #ddd; */
+}
+
+#validEmail h6 {
+    color: red;
+}
+#validpwd2 h6 {
+    color: red;
+}
+
+/* Verificación contraseña */
+
+#pswd_info {
+    /* position: absolute; */
+    width:300px;
+    padding:15px;
+    font-size: .8em;
+    border-radius: 5px;
+    box-shadow:0 1px 3px #ccc;
+    border: 1px solid #ddd;
+}
+
+#pswd_info h4 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+#pswd_info::before {
+    content: "\25B2";
+    position: absolute;
+    top: -12px;
+    left:45%;
+    font-size: 14px;
+    line-height: 14px;
+    color: #ddd;
+    text-shadow: none;
+    display: block;
+}
+
+#pswd_info {
+    display: none;
+}
+
+.invalid {
+    color: #ec3f41;
+}
+
+.valid {
+    color: #3a7d34;
+}
