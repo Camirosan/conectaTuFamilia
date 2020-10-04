@@ -1,5 +1,5 @@
 <?php 
-include '../conn/key.php';
+include '../../conn/key.php';
 $json = utf8_encode($_POST['data']);
 $data = json_decode($json);
 $userName = $data->user;

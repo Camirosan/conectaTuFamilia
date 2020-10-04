@@ -61,7 +61,7 @@ $(function(){
         const jsonToSend = JSON.stringify(dataToSend);
         $consulta = $.ajax({
             type: "POST",
-            url: "php/scripts/registro.php",
+            url: "php/scripts/index/registro.php",
             data: {data:jsonToSend},
             success: function (getdata){
                 callback(getdata);
@@ -265,7 +265,7 @@ $(function(){
             const jsonToSend = JSON.stringify(dataToSend);
             $consulta = $.ajax({
                 type: "POST",
-                url: "php/scripts/regNewUser.php",
+                url: "php/scripts/index/regNewUser.php",
                 data: {data:jsonToSend},
                 success: function (getdata){
                     console.log(getdata);

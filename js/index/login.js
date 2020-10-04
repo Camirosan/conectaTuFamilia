@@ -12,7 +12,7 @@ $(function(){
             const jsonToSend = JSON.stringify(dataToSend);
             $.ajax({
                 type: "POST",
-                url: "php/scripts/login.php",
+                url: "php/scripts/index/login.php",
                 data: {data:jsonToSend},
                 success: function (getdata){
                     console.log(getdata);

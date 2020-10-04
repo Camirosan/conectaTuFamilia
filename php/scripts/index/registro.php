@@ -1,6 +1,6 @@
 <?php
 // echo "en registro.php";
-include '../conn/key.php';
+include '../../conn/key.php';
 $json = utf8_encode($_POST['data']);
 $data = json_decode($json);
 $case = $data->case;
